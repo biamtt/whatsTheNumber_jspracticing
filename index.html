@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap">
+        <link rel="stylesheet" href="style.css">
+        <title>What's the number?</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="container__content">
+                <img src="./img/crystalball.png" alt="crystal ball" class="container__content__image"/>
+                <div class="container__content__info">
+                    <img src="./img/trophy.png" alt="trophy"/>
+                    <div class="container__content__info__text">
+                        <h1></h1>
+                        <p class="paragraph__text"></p>
+                    </div>
+                    <input type="number" min="1" max="10" class="container__input">
+                    <div class="bet__container_buttom">
+                        <button onclick="betVerify()" class="container__buttom">Bet</button>
+                        <button onclick="" id="restart" class="container__buttom">New Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js" defer></script>
+    </body>
+</html>
